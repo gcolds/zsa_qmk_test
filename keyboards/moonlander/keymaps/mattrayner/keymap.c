@@ -327,7 +327,7 @@ uint32_t layer_state_set_user(uint32_t state) {
     // Check layer, and apply color if its changed since last check
     if (has_layer_changed) {
         if (layer != _BASE) {
-            pause_rgb_mode();
+//            pause_rgb_mode();
         } else {
             restore_rgb_mode();
         }

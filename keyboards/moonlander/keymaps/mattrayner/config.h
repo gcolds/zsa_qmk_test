@@ -2,6 +2,8 @@
   Set any config.h overrides for your specific keymap here.
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
+#define USB_MAX_POWER_CONSUMPTION 100
+
 #define ORYX_CONFIGURATOR
 #define FIRMWARE_VERSION u8"yZylP/PDbRJ"
 #define DISABLE_RGB_MATRIX_DIGITAL_RAIN
